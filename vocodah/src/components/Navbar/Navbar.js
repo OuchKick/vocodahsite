@@ -16,8 +16,8 @@ function Navbar() {
             <RoutingLinks>
                 <HomeNav to ='/'>Home</HomeNav>
                 <MusicNav>Music</MusicNav>
-                <ShopNav>Shop</ShopNav>
-                <CourseNav>Course</CourseNav>
+                <ShopNav href='http://www.beatboxapparel.com/' target='_blank' rel='noreferrer'>Shop</ShopNav>
+                <CourseNav href='https://vocodah.gumroad.com/l/vocodah' target='_blank' rel='noreferrer'>Course</CourseNav>
                 <BioNav to ='/Bio'>Bio</BioNav>
                 <ContactNav>Contact</ContactNav>
             </RoutingLinks>
@@ -85,6 +85,8 @@ const MusicNav = styled.a`
 `;
 
 const ShopNav = styled.a`
+text-decoration: none;
+color: inherit;
 &:hover {
     color: #AA76FD;
     cursor: pointer;
@@ -93,6 +95,8 @@ const ShopNav = styled.a`
 `;
 
 const CourseNav = styled.a`
+text-decoration: none;
+color: inherit;
 &:hover {
     color: #AA76FD;
     cursor: pointer;
