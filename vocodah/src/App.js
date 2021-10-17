@@ -1,8 +1,10 @@
 import React from 'react';
-import styled from 'styled-components';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import Navbar from './components/Navbar/Navbar';
 import Bio from './components/Bio/Bio';
+import Mailer from './components/ContactForm/mailer';
+import Footer from './components/Footer/Footer';
+
 
 
 
@@ -14,7 +16,11 @@ function App() {
       <Route path='/Bio'>
       <Bio/>
       </Route>
+      <Route path='/Contact'>
+      <Mailer/>
+      </Route>
       </Switch>
+      <Footer />
     </Router>
   );
 }

@@ -19,7 +19,7 @@ function Navbar() {
                 <ShopNav href='http://www.beatboxapparel.com/' target='_blank' rel='noreferrer'>Shop</ShopNav>
                 <CourseNav href='https://vocodah.gumroad.com/l/vocodah' target='_blank' rel='noreferrer'>Course</CourseNav>
                 <BioNav to ='/Bio'>Bio</BioNav>
-                <ContactNav>Contact</ContactNav>
+                <ContactNav to ='/Contact'>Contact</ContactNav>
             </RoutingLinks>
         </NavContainer>
 
@@ -114,7 +114,9 @@ color: inherit;
 
 `;
 
-const ContactNav = styled.a`
+const ContactNav = styled(Link)`
+text-decoration: none;
+color: inherit;
 &:hover {
     color: #AA76FD;
     cursor: pointer;

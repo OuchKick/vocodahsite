@@ -1,13 +1,13 @@
 import React from 'react';
 import styled, { keyframes } from 'styled-components';
-import { arch_bold, arch_reg } from '../../utilities/fonts';
+import { arch_bold } from '../../utilities/fonts';
 
 function Bio() {
     return (
         <BioContainer>
             <BioTitle>About the artist</BioTitle>
             <BioContent>Hey! My name is Anthony Ridenhour (Vocodah) and I am a 
-                Professional Beatboxer + Loopstation Artist! I am the 2019 American BeatboxerChampion and the 2020 Online World Beatbox Champion.
+                Professional Beatboxer + Loopstation Artist! I am the 2019 American Beatboxer Champion and the 2020 Online World Beatbox Champion.
                 Dubstep and Beatboxing have been both of my passions for music for years now, and when I was thinking out how I wanted to build my style, I thought
                 it only made sense to fuse the two! <br></br>
                 <br></br>
